@@ -1,0 +1,30 @@
+{
+  "name": "odd-fancy-log",
+  "version": "1.0.0",
+  "description": "styled `console.log` in modern browsers.",
+  "main": "./dist/fancy-log.js",
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/funnyq/odd-fancy-log.git"
+  },
+  "files": [
+    "src",
+    "dist/*.js",
+    "types/*.d.ts"
+  ],
+  "typings": "dist/fancy-log.d.ts",
+  "private": true,
+  "author": "FunnyQ <funnyq@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.0.5",
+    "tslint": "^6.1.2",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.9.6"
+  },
+  "dependencies": {}
+}
