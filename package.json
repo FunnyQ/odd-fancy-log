@@ -1,6 +1,6 @@
 {
   "name": "odd-fancy-log",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "styled `console.log` in modern browsers.",
   "main": "./dist/fancy-log.js",
   "scripts": {

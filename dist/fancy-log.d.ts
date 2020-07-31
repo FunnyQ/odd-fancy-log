@@ -5,6 +5,7 @@ export default class FancyLog {
     constructor(orgName?: string, mainColor?: string);
     /**
      * display message in console
+     * **only render correctly in Firefox.**
      */
     panel(message: string, options?: displayOptions): void;
     /**

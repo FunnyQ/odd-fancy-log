@@ -10,6 +10,7 @@ class FancyLog {
     }
     /**
      * display message in console
+     * **only render correctly in Firefox.**
      */
     panel(message, options = {}) {
         console.log(`%c ${this.panelTabText(options)} %c${message}`, this.tabStyle(options.bgColor), this.panelStyle(options.bgColor));
@@ -85,6 +86,10 @@ border-radius: 0 10px 10px 0;
 background-color: #fff;
 color: ${leftBg};
 font-size: 10px;
+      `,
+            `
+display: inline;
+margin-left: 1em;
       `,
         ];
     }

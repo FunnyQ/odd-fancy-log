@@ -5,7 +5,7 @@ import Logger from 'odd-fancy-log'
 
 const logger = new Logger('myApp')
 
-logger.panel('message in panel.')
+logger.panel('message in panel.') // panel style only render correctly in Firefox.
 
 let payload = {
   name: 'Laptop',
